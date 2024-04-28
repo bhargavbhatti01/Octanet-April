@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+    background-color: rgba(94, 88, 88, 0.713);
+  background-image: url(https://jascotina.us.com/wp-content/uploads/2019/08/istockphoto-962112998-2048x2048.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+header{
+  width: 100%;
+  position: sticky;
+  top:0;
+  z-index: 1;
+  background: transparent;
+}
+header .container{
+  height: 10vh;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo img{
+  height: 100px;
+  width: 100px;
+}   
+.logo p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 30;
+  cursor:default;
+  color: rgb(0, 0, 0);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  
+}
+a{
+  text-decoration-thickness: thick ;
+  color: rgb(255, 255, 255);
+}
+
+nav li{
+  list-style: circle;
+}
+li{
+  font-size: 30px;
+}
+
+
+
+h1 {
+  text-align: center;
+  margin: 5%;
+  font-size: 3rem;
+  text-decoration: underline;
+  font-family: sans-serif;
+  color: #333; 
+}
+
+ul {
+  text-align: left;
+  padding-left: 30px;
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  position: relative;
+  list-style: none;
+  font-family: 'Times New Roman', Times, serif; 
+  font-weight: bold;
+  color: #000000bf;
+}
+
+li:hover {
+  color: rgb(0, 192, 154);
+  transition: none;
+  cursor: default;
+}
+.todo-list {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 5% auto; /* Center the list horizontally */
+    width: 100%; /* Adjust width as needed */
+  }
+  .strikethrough {
+    text-decoration: line-through;
+  }
